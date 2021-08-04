@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <style>
+        .required {
+            color: red;
+        }
+    </style>
+  </head>
+<center>
+    
+    <h2>Add User</h2>
+    <form action="/Home/UserList">
+        <div>
+            <input type="hidden" id="IntId" name="IntId" />
+            <b>First Name::</b>
+            <span class="required">*</span>
+            <input type="text" placeholder="Enter first name" name="strFirstName" id="strFirstName">
+            <br />
+            <br />
+            <b>Middle Name::</b>
+            <span class="required">*</span>
+            <input type="text" placeholder="Enter middle name" name="strMiddleName" id="strMiddleName">
+            <br />
+            <br />
+            <b>Last Name::</b>
+            <span class="required">*</span>
+            <input type="text" placeholder="Enter last name" name="strLastName" id="strLastName">
+            <br />
+            <br />
+            <b>User Name::</b>
+            <span class="required">*</span>
+            <input type="text" placeholder="Enter user name" name="strUserName" id="strUserName">
+            <br />
+            <br />
+            <b>Email ::</b>
+            <span class="required">*</span>
+            <input type="text" name="email" id="strEmailId" placeholder="Enter email" />
+            <br />
+            <br />
+            <b>Password.::</b>
+            <span class="required">*</span>
+            <input type="password" name="strPasswd" id="strPassword" placeholder="enter your password">
+            <br />
+            <br />
+            <b>Address::</b>
+            <span class="required">*</span>
+            <textarea id="strAddress" name="strAddress" rows="4" cols="50">
+            </textarea>
+            <br />
+            <br />
+            <b>Gender::</b>
+            <span class="required">*</span>
+            <input type="radio" placeholder="gender" id="0" value="male" name="gender">male
+            <input type="radio" placeholder="gender" id="1" value="female" name="gender">female
+            <br />
+            <br />
+            <b> Country:: </b>
+            <span class="required">*</span>
+            <select name="courses" id="strCountry">
+                <option selected="" value="0">0</option>
+            </select>
+            <br />
+            <br />
+            <b> State:: </b>
+            <span class="required">*</span>
+            <select name="courses" id="strState">
+                <option selected="" value="0">0</option>
+            </select>
+            <br />
+            <br />
+            <b>Birth Date::</b>
+            <span class="required">*</span>
+            <input type="date" id="dtBirthdate" name="date" />
+            <br />
+            <br />
+            <b>Profile::</b>
+            <input type="file" id="Profile"/>
+            <button type="button" style="font-size:20px" onclick="Submit()">Submit</button>
+            <button type="button" style="font-size:20px">Clear</button>
+        </div>
+    </form>
+</center>
+</html>
