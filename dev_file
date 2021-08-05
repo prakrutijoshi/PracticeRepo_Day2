@@ -1,3 +1,4 @@
 this is a file created remotely in new branch called dev
 I have this file locally now and editing this here 
 This file is edited remotely at the same time as i am editing it locally, trying to check conflicts
+I faced the conflicts and have resolved them and accepted both the changes 
